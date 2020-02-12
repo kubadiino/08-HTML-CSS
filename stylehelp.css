@@ -9,20 +9,20 @@ body {
   grid-gap: 20px;
 }
 
-@media screen and (max-width: 1000px){
-
+@media screen and (max-width: 1000px) {
   body {
-    grid-template-columns:1fr;
-    grid-template-areas:  "hd"
+    grid-template-columns: 1fr;
+    grid-template-areas:
       "hd"
       "sc"
-      "as" ;
-    grid-gap:;
+      "as"
+      "ft";
+    grid-gap: 10px;
   }
 }
 
 p {
-  color:#42847d
+  color: #42847d
 }
 
 body {
@@ -41,13 +41,13 @@ section {
 }
 
 aside {
-  float:inherit;
+  float: inherit;
   background-color: #B8CEE6;
-    grid-area: as;
+  grid-area: as;
 }
 
 footer {
-  background-color: #B8CEE6;
+  background-color: grey;
   grid-area: ft;
 }
 
